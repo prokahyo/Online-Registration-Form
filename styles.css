@@ -1,0 +1,9 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    background-color: #154c79; /* You can change this to any color you like */
+    color: white; /* Text color */
+    padding: 20px 0; /* Adjust padding to control the height of the banner */
+    margin: 0;
+    box-sizing: border-box;
+}
