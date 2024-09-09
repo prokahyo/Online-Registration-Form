@@ -1,9 +1,39 @@
 h1 {
     width: 100%;
     text-align: center;
-    background-color: #154c79; /* You can change this to any color you like */
+    background-color: #363636; /* You can change this to any color you like */
     color: white; /* Text color */
-    padding: 20px 0; /* Adjust padding to control the height of the banner */
+    padding: 20px 0; /*Adjust padding to control the height of the banner*/
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+form { 
+    width: 300px; /* Set a width for the form */
+    margin: 0 auto; /* Centers the form horizontally */
+}
+
+form fieldset:nth-of-type(1) {
+    border: none; /* Removes the border */
+    border-top: 6px double black; /* Creates a double line border */
+    padding: 0px 0 20px 0; /* 0 Top, 0 Right, 20px Bottom, 0 Left*/
+    margin: 0;
+}
+form fieldset:nth-last-of-type(1) {
+    border: none; /* Removes the border */
+    border-top: 1px solid black; /* Creates a single line border */
+    padding: 0;
+    margin: 0;
+}
+
+.fieldsettitle {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 1.2em; /* Increases the font size */
+    color: #333; /* Sets the text color */
+    padding: 0 10px; /* Adds padding around the text */
+}
+
+#newsletter {
+    font-family: Arial, sans-serif;
+    color: rgb(72, 72, 77);
+
 }
