@@ -44,15 +44,17 @@ h2 {
 }
 /* Line Break Styling */
 #first-break {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: 5px 1rem 0;
     border-bottom: 6px double #333;
 }
 #second-break {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: 5px 1rem 0;
     height: 3px;
     background-color: black;
 
@@ -74,7 +76,7 @@ fieldset {
     margin: 2rem 0;
 }
 #contact-fieldset {
-    width: 75%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -89,6 +91,7 @@ fieldset {
 select,
 textarea {
     height: 3.5rem;
+    width: 100%;
     border: none;
     font-size: 1rem;
     padding: 5px 15px;
