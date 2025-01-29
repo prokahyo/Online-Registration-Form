@@ -1,0 +1,218 @@
+
+/* Element styles ---------------------*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Merriweather, 'Times New Roman', serif;
+    color: #464646;
+  }
+  
+  h3 {
+    color: #5d5c5d;
+  }
+  
+  p {
+    color: #b7b7b7;
+  }
+  
+  /* Form styles ---------------------*/
+  
+  fieldset {
+    border-style: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  label {
+    display: block;
+    color: #b7b7b7;
+    margin-bottom: .7rem;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    border-style: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 0 0 30px;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    -webkit-transition: background-color 2s;
+    transition: background-color 2s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  textarea:focus,
+  select:focus {
+    border: solid 1px #239ab9;
+    background-color: #fff;
+  }
+  
+  input[placeholder],
+  textarea#other {
+    text-align: right;
+    font-size: .8rem;
+    font-style: italic;
+    color: #b7b7b7;
+    /* padding-right: .1rem; */
+  }
+  
+  input#zip {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  
+  textarea#other {
+    margin-bottom: 0;
+  }
+  
+  button {
+    padding: 16px 40px;
+    color: #fff;
+    background-color: #52bad5;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+  }
+  
+  /* Functional styles ---------------------*/
+  
+  .no-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  /* Class styles ---------------------*/
+  
+  .main-header,
+  .banner,
+  .contact-info,
+  .newsletter {
+    padding: 2rem 0;
+  }
+  
+  .newsletter {
+    padding-bottom: 1rem;
+  }
+  
+  .main-header {
+    background-color: #239ab9;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .main-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .banner {
+    border-bottom: solid 3px #6dc5dc;
+  }
+  
+  .contact-info {
+    margin-top: 3px;
+    border-top: solid 1.5px #6dc5dc;
+    border-bottom: solid 1.5px #6dc5dc;
+  }
+  
+  .subtitle {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5d5c5d;
+    padding-bottom: 1.2rem;
+  }
+  
+  .cb-label,
+  .r-label {
+    display: inline-block;
+    font-size: .9rem;
+    color: #7d7d7d;
+    margin: 0 0 .3rem 10px;
+  }
+  
+  .last {
+    margin-bottom: 1.5rem;
+  }
+  
+  .copyright {
+    font-size: .7rem;
+    font-style: italic;
+    line-height: 1.3rem;
+  }
+  
+  /* Media queries ---------------------*/
+  
+  @media (min-width: 768px) {
+    h3 {
+      font-size: 1.3rem;
+    }
+  
+    .main-wrapper {
+      max-width: 600px;
+    }
+  
+    .contact-info {
+      display: flex;
+    }
+  
+    label {
+      display: inline-block;
+      width: 25%;
+      order: -1;
+      font-size: .9rem;
+    }
+  
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    select {
+      width: 70%;
+    }
+  
+    input#zip {
+      width: 25%;
+    }
+  
+    .n-label {
+      width: 100%;
+    }
+  }
