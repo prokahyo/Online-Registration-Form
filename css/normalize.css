@@ -2,13 +2,13 @@
    ===================================================================== */
 
 /**
- * 1. Correct the line height in all internet browsers
- * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * a. Correct the line height in all internet browsers
+ * b. Prevent adjustments of font size after orientation changes in iOS.
  */
 
  html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+    line-height: 1.15; /* a */
+    -webkit-text-size-adjust: 100%; /* b */
   }
   
   /* Sections
@@ -24,7 +24,7 @@
   
   /**
    * Corrects the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
+   * article contexts in Chrome, Firefox, and Safari.
    */
   
   h1 {
@@ -36,24 +36,24 @@
      ===================================================================== */
   
   /**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
+   * a. Add the correct box sizing in Firefox.
+   * b. Show the overflow in Edge and IE.
    */
   
   hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
+    box-sizing: content-box; /* a */
+    height: 0; /* a */
+    overflow: visible; /* b */
   }
   
   /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
+   * a. Correct the inheritance and scaling of font size in all browsers.
+   * b. Correct the odd `em` font sizing in all browsers.
    */
   
   pre {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
+    font-family: monospace, monospace; /* a */
+    font-size: 1em; /* b */
   }
   
   /* Text-level semantics
@@ -68,14 +68,14 @@
   }
   
   /**
-   * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   * a. Remove the bottom border in Chrome 57-
+   * b. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
    */
   
   abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
+    border-bottom: none; /* a */
+    text-decoration: underline; /* b */
+    text-decoration: underline dotted; /* b */
   }
   
   /**
@@ -88,15 +88,15 @@
   }
   
   /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
+   * a. Correct the inheritance and scaling of font size in all browsers.
+   * b. Correct the odd `em` font sizing in all browsers.
    */
   
   code,
   kbd,
   samp {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
+    font-family: monospace, monospace; /* a */
+    font-size: 1em; /* b */
   }
   
   /**
@@ -143,7 +143,7 @@
      ===================================================================== */
   
   /**
-   * 1. Change the font styles in all browsers.
+   * a. Change the font styles in all browsers.
    */
   
   button,
@@ -151,29 +151,29 @@
   optgroup,
   select,
   textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
+    font-family: inherit; /* a */
+    font-size: 100%; /* a */
+    line-height: 1.15; /* a */
     
   }
   
   /**
    * Show the overflow in IE.
-   * 1. Show the overflow in Edge.
+   * a. Show the overflow in Edge.
    */
   
   button,
-  input { /* 1 */
+  input { /* a */
     overflow: visible;
   }
   
   /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
-   * 1. Remove the inheritance of text transform in Firefox.
+   * a. Remove the inheritance of text transform in Firefox.
    */
   
   button,
-  select { /* 1 */
+  select { /* a */
     text-transform: none;
   }
   
@@ -220,19 +220,19 @@
   } */
   
   /**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
+   * a. Correct the text wrapping in Edge and IE.
+   * b. Correct the color inheritance from `fieldset` elements in IE.
+   * c. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
    */
   
   legend {
-    box-sizing: border-box; /* 1 */
-    color: inherit; /* 2 */
-    display: table; /* 1 */
-    max-width: 100%; /* 1 */
-    padding: 0; /* 3 */
-    white-space: normal; /* 1 */
+    box-sizing: border-box; /* a */
+    color: inherit; /* b */
+    display: table; /* a */
+    max-width: 100%; /* a */
+    padding: 0; /* c */
+    white-space: normal; /* a */
   }
   
   /**
@@ -252,14 +252,14 @@
   }
   
   /**
-   * 1. Add the correct box sizing in IE 10.
-   * 2. Remove the padding in IE 10.
+   * a. Add the correct box sizing in IE 10.
+   * b. Remove the padding in IE 10.
    */
   
   [type="checkbox"],
   [type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
+    box-sizing: border-box; /* a */
+    padding: 0; /* b */
   }
   
   /**
@@ -272,13 +272,13 @@
   }
   
   /**
-   * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
+   * a. Correct the odd appearance in Chrome and Safari.
+   * b. Correct the outline style in Safari.
    */
   
   [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
+    -webkit-appearance: textfield; /* a */
+    outline-offset: -2px; /* b */
   }
   
   /**
@@ -290,13 +290,13 @@
   }
   
   /**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
-   * 2. Change font properties to `inherit` in Safari.
+   * a. Correct the inability to style clickable types in iOS and Safari.
+   * b. Change font properties to `inherit` in Safari.
    */
   
   ::-webkit-file-upload-button {
-    -webkit-appearance: button; /* 1 */
-    font: inherit; /* 2 */
+    -webkit-appearance: button; /* a */
+    font: inherit; /* b */
   }
   
   /* Interactive
